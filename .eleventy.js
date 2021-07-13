@@ -7,5 +7,6 @@ module.exports = (config) => {
     dir: {
       input: 'src',
     },
+    env: process.env.HASURA_SECRET
   };
 };
